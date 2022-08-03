@@ -7,7 +7,6 @@ sub_dir = os.path.realpath(os.path.dirname(app_path))
 main_dir = os.path.dirname(sub_dir)
 
 import pandas as pd
-
 pd.set_option('display.width', 400)
 pd.set_option('display.max_columns', 20)
 
